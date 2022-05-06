@@ -1,0 +1,110 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background: darkblue;
+}
+
+.contener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-left: 458px;
+    margin-right: 458px;
+    margin-top: 30px;
+}
+
+.conteudo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contener-preço{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: lightcyan;
+    margin-left:50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.preço{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.contener-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.titulo{
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 32px;
+    padding-top: 26px;
+}
+
+.texto{
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.plano{
+    font-family: 'Red Hat display';
+    font-weight: 700;
+}
+
+.mensalidade{
+    font-family: 'Red Hat display';
+    font-weight: 500;
+}
+
+.botao-1{
+    margin-bottom: 12px;
+    color: white;
+    background: darkblue;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.botao-2{
+    margin-bottom: 12px;
+    color: black;
+    background: white;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.botao-1:hover {
+    cursor: pointer;
+    
+}
+
+.link{
+    color: blue;
+    cursor: pointer;
+    font-family: 'Red Had Display';
+}
+
